@@ -91,6 +91,6 @@
 (println (reduce my-sum 0 [15]))
 (println (reduce my-sum 0 prices))
 
-(println (reduce my-sum []))
+(println (reduce my-sum 0 []))
 
 (println (reduce my-sum []))
